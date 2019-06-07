@@ -5,5 +5,4 @@ $result = mysqli_query($lik,$sql);
 if($result){
     echo "delete OK";
 }
-
 ?>
