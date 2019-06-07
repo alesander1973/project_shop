@@ -49,10 +49,10 @@ if(isset($_POST['submit'])){
 <body>
 
 <form action="index.php" method="post">
-    First Name: <input type="text" name="fname"><br>
-    Last Name: <input type="text" name="lname"><br>
-    E-mail: <input type="text" name="email"><br>
-    Password: <input type="text" name="pwd"><br>
+    First Name: <input type="text" name="fname" placeholder="name"><br>
+    Last Name: <input type="text" name="lname" placeholder="last name"><br>
+    E-mail: <input type="text" name="email" placeholder="email"><br>
+    Password: <input type="text" name="pwd" placeholder="password"><br>
     <input type="submit" name="submit"><br>
     <span style="color: blue"><?=$err?></span>
 </form>
